@@ -99,14 +99,13 @@ Public Class Form1
                                            "*.3g2", "*.3gp", "*.avi", "*.flv", "*.h264", "*.m4v", "*.mkv", "*.mov", "*.mp4", "*.mpg", "*.wmv", "*.mpeg", _
                                            "*.doc", "*.docx", "*.odt", "*.pdf", "*.rtf", "*.tex", "*.txt", "*.wpd"}
 
-        Dim ExtensionToScan1() As String = {"*.txt"}
 
         For Each PathScan As String In PathToScan
 
             Dim FileScanner As IEnumerable(Of FileInfo) = FileDirSearcher.GetFiles(dirPath:=PathScan,
                                                                              searchOption:=SearchOption.AllDirectories,
                                                                              fileNamePatterns:={"*"},
-                                                                             fileExtPatterns:=ExtensionToScan1,
+                                                                             fileExtPatterns:=ExtensionToScan,
                                                                              ignoreCase:=True,
                                                                              throwOnError:=True)
 

@@ -8,3 +8,13 @@ c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\ob
 c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.exe
 c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.xml
 c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.pdb
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Debug\Shareware.exe.config
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.exe
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.xml
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.pdb
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Debug\Shareware.exe
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Debug\Shareware.pdb
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Debug\Shareware.xml
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.Form1.resources
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.Resources.resources
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.vbproj.GenerateResource.Cache
