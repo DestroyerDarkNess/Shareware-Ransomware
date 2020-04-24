@@ -1,6 +1,6 @@
 # Shareware Ransomware
  
- ![Preview](https://i.ibb.co/0DSqxqP/MainIcon.png) ![Preview](https://i.ibb.co/0DSqxqP/MainIcon.png) ![Preview](https://i.ibb.co/7nFhvrG/Trollface1.png) ![Preview](https://i.ibb.co/7nFhvrG/Trollface1.png)
+ ![Preview](https://i.ibb.co/0DSqxqP/MainIcon.png) ![Preview](https://i.ibb.co/7nFhvrG/Trollface1.png)
  
  ## Introduction
  
