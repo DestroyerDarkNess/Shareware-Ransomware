@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Shareware
+</name>
+</assembly>
+<members>
+<member name="M:Shareware.Shareware.core.PerSys.#ctor(System.String)">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Handles the <see cref="T:Shareware.Shareware.core.PerSys"/> event of Execute Payload.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <param name="FilePath">
+ Path to Payload.
+ </param>
+ ----------------------------------------------------------------------------------------------------
+
+</member><member name="P:Shareware.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Shareware.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Shareware.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,20 @@
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\bin\Release\Shareware.exe.config
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\bin\Release\Shareware.exe
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\bin\Release\Shareware.pdb
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\bin\Release\Shareware.xml
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Release\Shareware.Form1.resources
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Release\Shareware.Resources.resources
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Release\Shareware.vbproj.GenerateResource.Cache
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Release\Shareware.exe
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Release\Shareware.xml
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Release\Shareware.pdb
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\bin\Release\Shareware.exe.config
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.exe
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.xml
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.pdb
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\bin\Release\Shareware.exe
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\bin\Release\Shareware.pdb
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\bin\Release\Shareware.xml
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.Form1.resources
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.Resources.resources
+C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.vbproj.GenerateResource.Cache

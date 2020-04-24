@@ -1,0 +1,10 @@
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\bin\Debug\Shareware.exe.config
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\bin\Debug\Shareware.exe
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\bin\Debug\Shareware.pdb
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\bin\Debug\Shareware.xml
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.Form1.resources
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.Resources.resources
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.vbproj.GenerateResource.Cache
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.exe
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.xml
+c:\users\s4lsalsoft\documents\visual studio 2012\Projects\Shareware\Shareware\obj\Debug\Shareware.pdb
