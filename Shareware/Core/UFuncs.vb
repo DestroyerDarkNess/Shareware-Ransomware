@@ -18,14 +18,14 @@ Namespace Shareware.core
             File.SetAttributes(DirP, FileAttributes.Hidden)
         End Sub
 
-        Public Shared Sub OpenAsAdmin(ByVal FilePth As String)
+        Public Shared Sub OpenAsAdmin(ByVal FilePth As String, ByVal Argument As String)
             Dim procStartInfo As New ProcessStartInfo
             Dim procExecuting As New Process
 
             With procStartInfo
                 .UseShellExecute = True
                 .FileName = FilePth
-                .Arguments = "-regedit"
+                .Arguments = Argument
                 .WindowStyle = ProcessWindowStyle.Normal
                 .Verb = "runas"
             End With

@@ -76,6 +76,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Compression.vb" />
     <Compile Include="Core\DestroyerCrypto.vb" />
     <Compile Include="Core\LogFuncs.vb" />
     <Compile Include="Core\ShareHook.vb" />

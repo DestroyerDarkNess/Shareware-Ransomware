@@ -18,3 +18,13 @@ C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\bin\Release\Shareware.xml
 C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.Form1.resources
 C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.Resources.resources
 C:\Users\S4Lsalsoft\Documents\ASD\Shareware\Shareware\obj\Release\Shareware.vbproj.GenerateResource.Cache
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Release\Shareware.exe.config
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Release\Shareware.exe
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Release\Shareware.xml
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Release\Shareware.pdb
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Release\Shareware.exe
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Release\Shareware.pdb
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Release\Shareware.xml
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Release\Shareware.Form1.resources
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Release\Shareware.Resources.resources
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Release\Shareware.vbproj.GenerateResource.Cache

@@ -18,3 +18,4 @@ C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\bin\Debug\Sh
 C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.Form1.resources
 C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.Resources.resources
 C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.vbproj.GenerateResource.Cache
+C:\Users\S4Lsalsoft\Documents\Github\Shareware-Ransomware\Shareware\obj\Debug\Shareware.Form2.resources

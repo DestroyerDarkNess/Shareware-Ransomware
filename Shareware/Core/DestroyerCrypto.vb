@@ -2,41 +2,48 @@
 
 Public Class Crypto
 
-    Private TripleDes As New TripleDESCryptoServiceProvider
+   #Region " AES "
 
-    Private Function TruncateHash(
- ByVal key As String,
- ByVal length As Integer) As Byte()
-
-        Dim sha1 As New SHA1CryptoServiceProvider
-
-        Dim keyBytes() As Byte =
-            System.Text.Encoding.Unicode.GetBytes(key)
-        Dim hash() As Byte = sha1.ComputeHash(keyBytes)
-
-        ReDim Preserve hash(length - 1)
-        Return hash
+    Public Function AES_Encrypt(ByVal input As String, ByVal pass As String) As String
+        Dim AES As New System.Security.Cryptography.RijndaelManaged
+        Dim Hash_AES As New System.Security.Cryptography.MD5CryptoServiceProvider
+        Dim encrypted As String = ""
+        Try
+            Dim hash(31) As Byte
+            Dim temp As Byte() = Hash_AES.ComputeHash(System.Text.ASCIIEncoding.ASCII.GetBytes(pass))
+            Array.Copy(temp, 0, hash, 0, 16)
+            Array.Copy(temp, 0, hash, 15, 16)
+            AES.Key = hash
+            AES.Mode = Security.Cryptography.CipherMode.ECB
+            Dim DESEncrypter As System.Security.Cryptography.ICryptoTransform = AES.CreateEncryptor
+            Dim Buffer As Byte() = System.Text.ASCIIEncoding.ASCII.GetBytes(input)
+            encrypted = Convert.ToBase64String(DESEncrypter.TransformFinalBlock(Buffer, 0, Buffer.Length))
+            Return encrypted
+        Catch ex As Exception
+            Return "Encrypted ERROR"
+        End Try
     End Function
 
-    Sub New(ByVal key As String)
-        TripleDes.Key = TruncateHash(key, TripleDes.KeySize \ 8)
-        TripleDes.IV = TruncateHash("", TripleDes.BlockSize \ 8)
-    End Sub
-
-    Public Function EncryptData(
-    ByVal plaintext As String) As String
-
-        Dim plaintextBytes() As Byte =
-            System.Text.Encoding.Unicode.GetBytes(plaintext)
-
-        Dim ms As New System.IO.MemoryStream
-
-        Dim encStream As New CryptoStream(ms,
-            TripleDes.CreateEncryptor(),
-            System.Security.Cryptography.CryptoStreamMode.Write)
-        encStream.Write(plaintextBytes, 0, plaintextBytes.Length)
-        encStream.FlushFinalBlock()
-        Return Convert.ToBase64String(ms.ToArray)
+    Public Function AES_Decrypt(ByVal input As String, ByVal pass As String) As String
+        Dim AES As New System.Security.Cryptography.RijndaelManaged
+        Dim Hash_AES As New System.Security.Cryptography.MD5CryptoServiceProvider
+        Dim decrypted As String = ""
+        Try
+            Dim hash(31) As Byte
+            Dim temp As Byte() = Hash_AES.ComputeHash(System.Text.ASCIIEncoding.ASCII.GetBytes(pass))
+            Array.Copy(temp, 0, hash, 0, 16)
+            Array.Copy(temp, 0, hash, 15, 16)
+            AES.Key = hash
+            AES.Mode = Security.Cryptography.CipherMode.ECB
+            Dim DESDecrypter As System.Security.Cryptography.ICryptoTransform = AES.CreateDecryptor
+            Dim Buffer As Byte() = Convert.FromBase64String(input)
+            decrypted = System.Text.ASCIIEncoding.ASCII.GetString(DESDecrypter.TransformFinalBlock(Buffer, 0, Buffer.Length))
+            Return decrypted
+        Catch ex As Exception
+            Return "Encrypted ERROR"
+        End Try
     End Function
+
+#End Region
 
 End Class

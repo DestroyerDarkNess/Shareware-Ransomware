@@ -6,7 +6,25 @@ Shareware
 </name>
 </assembly>
 <members>
-<member name="P:Shareware.My.Resources.Resources.ResourceManager">
+<member name="M:Shareware.Shareware.core.PerSys.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Handles the <see cref="T:Shareware.Shareware.core.PerSys"/> event of Execute Payload.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+
+</member><member name="M:Shareware.Shareware.core.UFuncs.FileHide(System.String)">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Handles the <see cref="M:Shareware.Shareware.core.UFuncs.FileHide(System.String)"/> event of Execute Payload.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <param name="DirP">
+ File Path to Hide.
+ </param>
+ ----------------------------------------------------------------------------------------------------
+
+</member><member name="P:Shareware.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -121,24 +139,6 @@ Shareware
 	<summary>
  Searchs for files and directories.
  </summary>
-</member><member name="M:Shareware.Shareware.core.PerSys.#ctor">
- ----------------------------------------------------------------------------------------------------
- <summary>
- Handles the <see cref="T:Shareware.Shareware.core.PerSys"/> event of Execute Payload.
- </summary>
- ----------------------------------------------------------------------------------------------------
-
-</member><member name="M:Shareware.Shareware.core.UFuncs.FileHide(System.String)">
- ----------------------------------------------------------------------------------------------------
- <summary>
- Handles the <see cref="M:Shareware.Shareware.core.UFuncs.FileHide(System.String)"/> event of Execute Payload.
- </summary>
- ----------------------------------------------------------------------------------------------------
- <param name="DirP">
- File Path to Hide.
- </param>
- ----------------------------------------------------------------------------------------------------
-
 </member>
 </members>
 </doc>
